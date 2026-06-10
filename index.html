@@ -619,6 +619,12 @@ My love may this birthday bring you all the happiness you so effortlessly give t
 
     /* typewriter */
     typeWrite(PERSONAL_MESSAGE);
+       const audio = document.getElementById('bg-music');
+if (audio) {
+    audio.play().catch(() => {});
+    musicPlaying = true;
+    document.getElementById('music-icon').textContent = '⏸';
+}
   }
 
   /* ════════════════════════════════════════════
