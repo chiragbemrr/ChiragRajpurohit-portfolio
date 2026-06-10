@@ -295,7 +295,19 @@
     border-top: 1px dashed var(--gold-light);
     text-shadow: 0 1px 4px rgba(198,40,40,0.12);
   }
+.memory-photo {
+    margin-top: 25px;
+    text-align: center;
+}
 
+.memory-photo img {
+    width: 170px;
+    background: white;
+    padding: 10px 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transform: rotate(-3deg);
+}
   /* small floating hearts around letter */
   .letter-hearts {
     position: absolute;
@@ -412,6 +424,9 @@
 
   <p class="letter-signature" id="letter-signature">Forever Yours, [Your Name] ❤️</p>
 </div>
+       <div class="memory-photo">
+    <img src="photo.jpeg" alt="Our Memory">
+</div>  
 
 <!-- Music button -->
 <button id="music-btn" title="Toggle music" onclick="toggleMusic()">
